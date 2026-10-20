@@ -1,0 +1,1080 @@
+[
+  {
+    "title": "91APP雲端平臺資料庫Commerce Cloud遭自動化攻擊",
+    "url": "https://www.ithome.com.tw/news/179741",
+    "reported_date": "2026-10-16",
+    "stock_code": "6741",
+    "company_name": "電商技術服務公司91APP",
+    "dates": {
+      "intrusion_date": "2026-10-14",
+      "discovery_date": "2026-10-14",
+      "disclosure_date": "2026-10-16",
+      "reporting_date": "2026-10-16"
+    },
+    "attack_categories": [
+      "自動化帳密攻擊 (Credential Stuffing)",
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據91APP的初步評估，此次事故對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "6741.TWO",
+      "company_name": "91APP INC",
+      "current_price": 49.2,
+      "52w_high": 86.3,
+      "52w_low": 48.2,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "10.96",
+        "dividend_yield": "4.18",
+        "pb_ratio": "1.83"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-16",
+        "price_before_event": 54.2,
+        "price_on_event": 53.5,
+        "raw_return_1d": "-1.29%",
+        "raw_return_3d": "-9.23%",
+        "pre_leakage_return_3d": "0.74%",
+        "abnormal_return_1d": "-1.59%",
+        "abnormal_return_3d": "-8.92%",
+        "volume_shock_multiple": "1.5x"
+      }
+    }
+  },
+  {
+    "title": "緯致科技部分員工資訊遭未經授權存取",
+    "url": "https://www.ithome.com.tw/news/179569",
+    "reported_date": "2026-10-12",
+    "stock_code": "4953",
+    "company_name": "資訊技術服務公司緯致科技",
+    "dates": {
+      "intrusion_date": "2026-10-08",
+      "discovery_date": "2026-10-08",
+      "disclosure_date": "2026-10-09",
+      "reporting_date": "2026-10-12"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據初步評估，緯致表示此事對公司尚無重大影響，整體系統與營運正常，為防範員工個資被用於犯罪，他們向全部員工進行反詐騙宣導。",
+    "market_data": {
+      "symbol": "4953.TWO",
+      "company_name": "WITS CORP",
+      "current_price": 118.0,
+      "52w_high": 145.5,
+      "52w_low": 107.5,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "11.86",
+        "dividend_yield": "4.36",
+        "pb_ratio": "2.05"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-12",
+        "price_before_event": 117.0,
+        "price_on_event": 116.5,
+        "raw_return_1d": "-0.43%",
+        "raw_return_3d": "0.0%",
+        "pre_leakage_return_3d": "0.0%",
+        "abnormal_return_1d": "-0.41%",
+        "abnormal_return_3d": "1.39%",
+        "volume_shock_multiple": "1.19x"
+      }
+    }
+  },
+  {
+    "title": "上福公告子公司Katun Corporation發生資安事故",
+    "url": "https://www.ithome.com.tw/news/179510",
+    "reported_date": "2026-10-08",
+    "stock_code": "6128",
+    "company_name": "雷射印表機與影印機耗材製造商上福",
+    "dates": {
+      "intrusion_date": "2026-10-07",
+      "discovery_date": "2026-10-07",
+      "disclosure_date": "2026-10-07",
+      "reporting_date": "2026-10-08"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據初步評估，上福表示本次事故對公司營運無重大影響，沒有個資、機密、重要文件資料外洩的情形發生。",
+    "market_data": {
+      "symbol": "6128.TW",
+      "company_name": "GENERAL PLASTIC INDUSTRIAL CO",
+      "current_price": 19.05,
+      "52w_high": 28.3,
+      "52w_low": 18.7,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "N/A",
+        "dividend_yield": "2.60",
+        "pb_ratio": "0.87"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-07",
+        "price_before_event": 19.35,
+        "price_on_event": 19.2,
+        "raw_return_1d": "-0.78%",
+        "raw_return_3d": "-0.26%",
+        "pre_leakage_return_3d": "0.78%",
+        "abnormal_return_1d": "-0.75%",
+        "abnormal_return_3d": "0.78%",
+        "volume_shock_multiple": "0.47x"
+      }
+    }
+  },
+  {
+    "title": "杏一網站疑似發生個資外洩",
+    "url": "https://www.ithome.com.tw/news/179507",
+    "reported_date": "2026-10-08",
+    "stock_code": "4175",
+    "company_name": "醫療用品零售通路公司杏一",
+    "dates": {
+      "intrusion_date": "2026-10-07",
+      "discovery_date": "2026-10-07",
+      "disclosure_date": "2026-10-07",
+      "reporting_date": "2026-10-08"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "第三方/供應鏈事故 (Third-Party Incident)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "外部服務/APP暫時受阻"
+    ],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "4175.TWO",
+      "company_name": "MEDFIRST HEALTHCARE SERVICES IN",
+      "current_price": 50.5,
+      "52w_high": 62.7,
+      "52w_low": 49.1,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "13.32",
+        "dividend_yield": "5.94",
+        "pb_ratio": "1.40"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-07",
+        "price_before_event": 50.7,
+        "price_on_event": 50.7,
+        "raw_return_1d": "0.0%",
+        "raw_return_3d": "1.18%",
+        "pre_leakage_return_3d": "0.0%",
+        "abnormal_return_1d": "0.03%",
+        "abnormal_return_3d": "2.22%",
+        "volume_shock_multiple": "0.0x"
+      }
+    }
+  },
+  {
+    "title": "鈊象營運資訊設備遭到入侵，部分營運資料與玩家個資外洩",
+    "url": "https://www.ithome.com.tw/news/179504",
+    "reported_date": "2026-10-08",
+    "stock_code": "3293",
+    "company_name": "本週遊戲軟體公司鈊象",
+    "dates": {
+      "intrusion_date": "2026-10-07",
+      "discovery_date": "2026-10-07",
+      "disclosure_date": "2026-10-07",
+      "reporting_date": "2026-10-08"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "3293.TWO",
+      "company_name": "INTERNATIONAL GAMES SYSTEM CO",
+      "current_price": 774.0,
+      "52w_high": 833.0,
+      "52w_low": 670.0,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "17.88",
+        "dividend_yield": "4.65",
+        "pb_ratio": "14.43"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-07",
+        "price_before_event": 780.0,
+        "price_on_event": 780.0,
+        "raw_return_1d": "0.0%",
+        "raw_return_3d": "2.18%",
+        "pre_leakage_return_3d": "-1.39%",
+        "abnormal_return_1d": "0.03%",
+        "abnormal_return_3d": "3.22%",
+        "volume_shock_multiple": "0.23x"
+      }
+    }
+  },
+  {
+    "title": "一零四資訊科技系統遭到異常讀取，12萬筆履歷資料恐外流",
+    "url": "https://www.ithome.com.tw/news/179476",
+    "reported_date": "2026-10-07",
+    "stock_code": "3130",
+    "company_name": "一零四資訊科技",
+    "dates": {
+      "intrusion_date": "2026-10-06",
+      "discovery_date": "2026-10-06",
+      "disclosure_date": "2026-10-06",
+      "reporting_date": "2026-10-07"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "3130.TW",
+      "company_name": "104 CORP",
+      "current_price": 208.0,
+      "52w_high": 229.0,
+      "52w_low": 202.5,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "12.61",
+        "dividend_yield": "7.02",
+        "pb_ratio": "4.44"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-06",
+        "price_before_event": 209.0,
+        "price_on_event": 208.0,
+        "raw_return_1d": "-0.48%",
+        "raw_return_3d": "-0.72%",
+        "pre_leakage_return_3d": "-0.48%",
+        "abnormal_return_1d": "-0.7%",
+        "abnormal_return_3d": "0.08%",
+        "volume_shock_multiple": "0.56x"
+      }
+    }
+  },
+  {
+    "title": "摩斯漢堡傳出消費者個資外流，廠商說明後續處理方式",
+    "url": "https://www.ithome.com.tw/news/179408",
+    "reported_date": "2026-10-05",
+    "stock_code": "1259",
+    "company_name": "上週連鎖餐飲服務公司安心",
+    "dates": {
+      "intrusion_date": "2026-10-01",
+      "discovery_date": "2026-10-01",
+      "disclosure_date": "2026-10-01",
+      "reporting_date": "2026-10-05"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "第三方/供應鏈事故 (Third-Party Incident)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "1259.TWO",
+      "company_name": "AN-SHIN FOOD SERVICES CO LTD",
+      "current_price": 63.4,
+      "52w_high": 69.0,
+      "52w_low": 55.1,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "17.91",
+        "dividend_yield": "1.89",
+        "pb_ratio": "0.73"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-10-01",
+        "price_before_event": 68.1,
+        "price_on_event": 68.0,
+        "raw_return_1d": "-0.15%",
+        "raw_return_3d": "-0.15%",
+        "pre_leakage_return_3d": "0.15%",
+        "abnormal_return_1d": "-1.01%",
+        "abnormal_return_3d": "-3.85%",
+        "volume_shock_multiple": "0.57x"
+      }
+    }
+  },
+  {
+    "title": "鈊象發布資安重大訊息，揭露營運資訊設備遭到入侵",
+    "url": "https://www.ithome.com.tw/news/179289",
+    "reported_date": "2026-09-30",
+    "stock_code": "3293",
+    "company_name": "遊戲軟體公司鈊象",
+    "dates": {
+      "intrusion_date": "2026-09-29",
+      "discovery_date": "2026-09-29",
+      "disclosure_date": "2026-09-29",
+      "reporting_date": "2026-09-30"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "9月29日遊戲軟體公司鈊象（3293）於股市公開資訊觀測站發布重大訊息，他們偵測到有不明IP位址異常入侵的活動，目標是該公司的營運資訊設備，資安團隊察覺後隨即啟動資安應變機制，根據初步評估，本起事故對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "3293.TWO",
+      "company_name": "INTERNATIONAL GAMES SYSTEM CO",
+      "current_price": 774.0,
+      "52w_high": 833.0,
+      "52w_low": 670.0,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "17.88",
+        "dividend_yield": "4.65",
+        "pb_ratio": "14.43"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-29",
+        "price_before_event": 761.0,
+        "price_on_event": 779.0,
+        "raw_return_1d": "2.37%",
+        "raw_return_3d": "6.96%",
+        "pre_leakage_return_3d": "4.68%",
+        "abnormal_return_1d": "3.19%",
+        "abnormal_return_3d": "6.28%",
+        "volume_shock_multiple": "1.75x"
+      }
+    }
+  },
+  {
+    "title": "神腦外部伺服器遭自動化攻擊，部分訂單資訊遭擷取",
+    "url": "https://www.ithome.com.tw/news/179288",
+    "reported_date": "2026-09-30",
+    "stock_code": "2450",
+    "company_name": "本週神腦國際",
+    "dates": {
+      "intrusion_date": "2026-09-29",
+      "discovery_date": "2026-09-29",
+      "disclosure_date": "2026-09-29",
+      "reporting_date": "2026-09-30"
+    },
+    "attack_categories": [
+      "自動化帳密攻擊 (Credential Stuffing)",
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "臺灣通訊產品及3C商品通路公司神腦國際（2450）於9月29日，在股市公開資訊觀測站發布重大訊息，表示他們的外部伺服器遭受自動化攻擊，攻擊者對部分訂單資訊進行擷取，該公司獲報後啟動應變會議，採取必要措施降低影響，初步評估對營運、財務，以及服務提供無重大影響。",
+    "market_data": {
+      "symbol": "2450.TW",
+      "company_name": "SENAO INTERNATIONAL CO LTD",
+      "current_price": 28.1,
+      "52w_high": 32.0,
+      "52w_low": 27.95,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "17.41",
+        "dividend_yield": "5.50",
+        "pb_ratio": "1.17"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-29",
+        "price_before_event": 28.25,
+        "price_on_event": 28.2,
+        "raw_return_1d": "-0.18%",
+        "raw_return_3d": "0.18%",
+        "pre_leakage_return_3d": "-0.18%",
+        "abnormal_return_1d": "0.64%",
+        "abnormal_return_3d": "-0.5%",
+        "volume_shock_multiple": "1.07x"
+      }
+    }
+  },
+  {
+    "title": "健身服務公司柏文對外服務系統遭到自動化攻擊",
+    "url": "https://www.ithome.com.tw/news/179194",
+    "reported_date": "2026-09-24",
+    "stock_code": "8462",
+    "company_name": "健身服務公司柏文",
+    "dates": {
+      "intrusion_date": "2026-09-23",
+      "discovery_date": "2026-09-23",
+      "disclosure_date": "2026-09-23",
+      "reporting_date": "2026-09-24"
+    },
+    "attack_categories": [
+      "自動化帳密攻擊 (Credential Stuffing)",
+      "資料外洩 (Data Breach)",
+      "第三方/供應鏈事故 (Third-Party Incident)"
+    ],
+    "impact_types": [
+      "顧客個資外洩風險",
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "該公司獲報後已啟動處理流程，並通報相關主管機關，根據初步評估，對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "8462.TW",
+      "company_name": "POWER WIND HEALTH INDUSTRY INCO",
+      "current_price": 158.0,
+      "52w_high": 181.0,
+      "52w_low": 133.5,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "15.13",
+        "dividend_yield": "4.61",
+        "pb_ratio": "5.28"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-23",
+        "price_before_event": 160.0,
+        "price_on_event": 158.0,
+        "raw_return_1d": "-1.25%",
+        "raw_return_3d": "-1.88%",
+        "pre_leakage_return_3d": "-1.23%",
+        "abnormal_return_1d": "-2.0%",
+        "abnormal_return_3d": "-1.53%",
+        "volume_shock_multiple": "1.52x"
+      }
+    }
+  },
+  {
+    "title": "萬達寵物客戶傳出個資外洩",
+    "url": "https://www.ithome.com.tw/news/179103",
+    "reported_date": "2026-09-22",
+    "stock_code": "6968",
+    "company_name": "上櫃寵物零售公司萬達寵物",
+    "dates": {
+      "intrusion_date": "2026-09-19",
+      "discovery_date": "2026-09-19",
+      "disclosure_date": "2026-09-19",
+      "reporting_date": "2026-09-22"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "6968.TWO",
+      "company_name": "WONDERPETS",
+      "current_price": 41.1,
+      "52w_high": 59.02,
+      "52w_low": 40.735,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "16.18",
+        "dividend_yield": "3.65",
+        "pb_ratio": "1.54"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-21",
+        "price_before_event": 41.5,
+        "price_on_event": 41.55,
+        "raw_return_1d": "0.12%",
+        "raw_return_3d": "0.12%",
+        "pre_leakage_return_3d": "0.0%",
+        "abnormal_return_1d": "-1.02%",
+        "abnormal_return_3d": "-1.95%",
+        "volume_shock_multiple": "1.07x"
+      }
+    }
+  },
+  {
+    "title": "友訊網站遭大量帳密嘗試登入",
+    "url": "https://www.ithome.com.tw/news/179102",
+    "reported_date": "2026-09-22",
+    "stock_code": "2332",
+    "company_name": "網通設備公司友訊",
+    "dates": {
+      "intrusion_date": "2026-09-18",
+      "discovery_date": "2026-09-18",
+      "disclosure_date": "2026-09-18",
+      "reporting_date": "2026-09-22"
+    },
+    "attack_categories": [
+      "自動化帳密攻擊 (Credential Stuffing)"
+    ],
+    "impact_types": [
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據初步評估，此次事件對該公司營運無重大影響。",
+    "market_data": {
+      "symbol": "2332.TW",
+      "company_name": "D-LINK CORP",
+      "current_price": 20.65,
+      "52w_high": 26.45,
+      "52w_low": 13.45,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "N/A",
+        "dividend_yield": "N/A",
+        "pb_ratio": "1.55"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-18",
+        "price_before_event": 19.4,
+        "price_on_event": 19.45,
+        "raw_return_1d": "0.26%",
+        "raw_return_3d": "4.12%",
+        "pre_leakage_return_3d": "3.19%",
+        "abnormal_return_1d": "-1.67%",
+        "abnormal_return_3d": "0.85%",
+        "volume_shock_multiple": "0.52x"
+      }
+    }
+  },
+  {
+    "title": "長榮航空、長榮航太網路環境遭到入侵",
+    "url": "https://www.ithome.com.tw/news/178969",
+    "reported_date": "2026-09-16",
+    "stock_code": "2618",
+    "company_name": "9月15日晚間長榮航空",
+    "dates": {
+      "intrusion_date": "2026-09-15",
+      "discovery_date": "2026-09-15",
+      "disclosure_date": "2026-09-15",
+      "reporting_date": "2026-09-16"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [],
+    "impact_statement": "長榮航空表示，有不明人士透過惡意IP位址入侵，且取得員工姓名與公務聯絡資訊，評估對公司所有業務不造成影響；長榮航太表示，該公司偵測到部分內部資訊系統遭到攻擊，他們對受影響設備進行隔離，核心資訊系統及營運業務運作正常，未發現客戶或第三方敏感個資外洩。",
+    "market_data": {
+      "symbol": "2618.TW",
+      "company_name": "EVA AIRWAYS",
+      "current_price": 42.7,
+      "52w_high": 45.65,
+      "52w_low": 32.15,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "9.20",
+        "dividend_yield": "4.58",
+        "pb_ratio": "1.69"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-15",
+        "price_before_event": 42.05,
+        "price_on_event": 41.2,
+        "raw_return_1d": "-2.02%",
+        "raw_return_3d": "0.0%",
+        "pre_leakage_return_3d": "0.6%",
+        "abnormal_return_1d": "-1.25%",
+        "abnormal_return_3d": "-0.93%",
+        "volume_shock_multiple": "1.37x"
+      }
+    }
+  },
+  {
+    "title": "崴寶資訊系統遭到入侵，部分資料遭加密鎖定",
+    "url": "https://www.ithome.com.tw/news/178923",
+    "reported_date": "2026-09-15",
+    "stock_code": "7744",
+    "company_name": "崴寶精密科技",
+    "dates": {
+      "intrusion_date": "2026-09-14",
+      "discovery_date": "2026-09-14",
+      "disclosure_date": "2026-09-14",
+      "reporting_date": "2026-09-15"
+    },
+    "attack_categories": [
+      "勒索軟體 (Ransomware)",
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [],
+    "impact_statement": "根據初步評估，崴寶表示受影響範圍包括公司網路系統、電子郵件系統，以及部分業務營運相關系統，不過未影響工廠生產作業，生產活動均維持正常，目前也尚未發現機密資料或個人資料外洩的跡象。",
+    "market_data": {
+      "symbol": "7744.TWO",
+      "company_name": "WB",
+      "current_price": 480.5,
+      "52w_high": 618.0,
+      "52w_low": 265.0,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "22.12",
+        "dividend_yield": "1.46",
+        "pb_ratio": "5.69"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-14",
+        "price_before_event": 497.0,
+        "price_on_event": 480.5,
+        "raw_return_1d": "-3.32%",
+        "raw_return_3d": "-1.41%",
+        "pre_leakage_return_3d": "-6.05%",
+        "abnormal_return_1d": "-2.62%",
+        "abnormal_return_3d": "-0.68%",
+        "volume_shock_multiple": "0.51x"
+      }
+    }
+  },
+  {
+    "title": "生技醫療公司達爾膚部分內部資訊系統遭網攻",
+    "url": "https://www.ithome.com.tw/news/178893",
+    "reported_date": "2026-09-14",
+    "stock_code": "6523",
+    "company_name": "達爾膚",
+    "dates": {
+      "intrusion_date": "2026-09-11",
+      "discovery_date": "2026-09-11",
+      "disclosure_date": "2026-09-11",
+      "reporting_date": "2026-09-14"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "以醫學美容保養品為核心的臺灣生技醫療公司達爾膚（6523），9月11日於股市公開資訊觀測站發布重大訊息，部分內部資訊系統遭受網路攻擊，該公司強調，這些受影響系統不屬於公司現行主要營運系統，亦未對外提供服務，根據評估對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "6523.TWO",
+      "company_name": "DR.WU SKINCARE CO LTD",
+      "current_price": 85.0,
+      "52w_high": 126.5,
+      "52w_low": 84.1,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "12.86",
+        "dividend_yield": "11.76",
+        "pb_ratio": "3.01"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-11",
+        "price_before_event": 89.5,
+        "price_on_event": 90.5,
+        "raw_return_1d": "1.12%",
+        "raw_return_3d": "-0.11%",
+        "pre_leakage_return_3d": "0.11%",
+        "abnormal_return_1d": "2.73%",
+        "abnormal_return_3d": "2.93%",
+        "volume_shock_multiple": "0.75x"
+      }
+    }
+  },
+  {
+    "title": "計程車叫車服務業者大車隊子公司遭網路攻擊",
+    "url": "https://www.ithome.com.tw/news/178835",
+    "reported_date": "2026-09-10",
+    "stock_code": "2640",
+    "company_name": "本週上櫃計程車叫車服務公司大車隊",
+    "dates": {
+      "intrusion_date": "2026-09-09",
+      "discovery_date": "2026-09-09",
+      "disclosure_date": "2026-09-09",
+      "reporting_date": "2026-09-10"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [],
+    "impact_statement": "經初步評估，此次事件目前尚未對全球商務科技整體營運及財務造成重大影響。",
+    "market_data": {
+      "symbol": "2640.TWO",
+      "company_name": "TAIWAN TAXI CO LTD",
+      "current_price": 156.5,
+      "52w_high": 199.0,
+      "52w_low": 122.5,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "16.44",
+        "dividend_yield": "5.11",
+        "pb_ratio": "4.63"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-09",
+        "price_before_event": 154.0,
+        "price_on_event": 154.0,
+        "raw_return_1d": "0.0%",
+        "raw_return_3d": "-0.32%",
+        "pre_leakage_return_3d": "-1.28%",
+        "abnormal_return_1d": "-0.16%",
+        "abnormal_return_3d": "1.64%",
+        "volume_shock_multiple": "0.33x"
+      }
+    }
+  },
+  {
+    "title": "富爾特子公司格帝控股遭勒索軟體攻擊，ERP等系統一度無法運作",
+    "url": "https://www.ithome.com.tw/news/178762",
+    "reported_date": "2026-09-08",
+    "stock_code": "6136",
+    "company_name": "富爾特",
+    "dates": {
+      "intrusion_date": "2026-09-07",
+      "discovery_date": "2026-09-08",
+      "disclosure_date": "2026-09-08",
+      "reporting_date": "2026-09-08"
+    },
+    "attack_categories": [
+      "勒索軟體 (Ransomware)"
+    ],
+    "impact_types": [
+      "核心系統/ERP停擺",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "針對這起事故處理情形與可能會帶來的影響，富爾特表示，受影響系統正陸續復原，根據他們的初步評估，對公司整體營運與財務不致有重大影響。",
+    "market_data": {
+      "symbol": "6136.TW",
+      "company_name": "FULLERTON TECHNOLOGY CO",
+      "current_price": 26.3,
+      "52w_high": 29.5,
+      "52w_low": 23.15,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "36.49",
+        "dividend_yield": "4.30",
+        "pb_ratio": "0.69"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-08",
+        "price_before_event": 24.05,
+        "price_on_event": 24.65,
+        "raw_return_1d": "2.49%",
+        "raw_return_3d": "2.49%",
+        "pre_leakage_return_3d": "-2.43%",
+        "abnormal_return_1d": "2.96%",
+        "abnormal_return_3d": "3.31%",
+        "volume_shock_multiple": "0.93x"
+      }
+    }
+  },
+  {
+    "title": "上櫃公司創新服務遭勒索病毒攻擊，導致ERP等資訊系統無法運作",
+    "url": "https://www.ithome.com.tw/news/178655",
+    "reported_date": "2026-09-03",
+    "stock_code": "7828",
+    "company_name": "半導體設備廠創新服務",
+    "dates": {
+      "intrusion_date": "2026-09-02",
+      "discovery_date": "2026-09-02",
+      "disclosure_date": "2026-09-02",
+      "reporting_date": "2026-09-03"
+    },
+    "attack_categories": [
+      "勒索軟體 (Ransomware)"
+    ],
+    "impact_types": [
+      "核心系統/ERP停擺",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "對於本次事故的處理情形，創新服務表示受影響的系統正陸續復原，根據他們的初步評估，對公司整體營運及財務尚不致有重大影響。",
+    "market_data": {
+      "symbol": "7828.TWO",
+      "company_name": "INNOSTAR",
+      "current_price": 1505.0,
+      "52w_high": 2510.0,
+      "52w_low": 300.0,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "152.64",
+        "dividend_yield": "0.30",
+        "pb_ratio": "11.79"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-02",
+        "price_before_event": 1810.0,
+        "price_on_event": 1760.0,
+        "raw_return_1d": "-2.76%",
+        "raw_return_3d": "6.63%",
+        "pre_leakage_return_3d": "0.56%",
+        "abnormal_return_1d": "-1.09%",
+        "abnormal_return_3d": "7.48%",
+        "volume_shock_multiple": "0.74x"
+      }
+    }
+  },
+  {
+    "title": "半導體矽智財公司乾瞻ERP系統遭加密攻擊，強調研發環境未受波及",
+    "url": "https://www.ithome.com.tw/news/178620",
+    "reported_date": "2026-09-02",
+    "stock_code": "7898",
+    "company_name": "本週半導體矽智財興櫃公司乾瞻",
+    "dates": {
+      "intrusion_date": "2026-09-01",
+      "discovery_date": "2026-09-01",
+      "disclosure_date": "2026-09-01",
+      "reporting_date": "2026-09-02"
+    },
+    "attack_categories": [
+      "一般網路安全事故 (General Cyber Incident)"
+    ],
+    "impact_types": [
+      "核心系統/ERP停擺",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "至於此次事件造成的影響，乾瞻初步評估對財務、業務及營運均無重大影響。",
+    "market_data": {
+      "symbol": "7898.TWO",
+      "company_name": "InPsy",
+      "current_price": 393.0,
+      "52w_high": 1020.0,
+      "52w_low": 295.0,
+      "financials": {
+        "market": "未知",
+        "pe_ratio": "N/A",
+        "dividend_yield": "N/A",
+        "pb_ratio": "N/A"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-09-01",
+        "price_before_event": 378.5,
+        "price_on_event": 370.0,
+        "raw_return_1d": "-2.25%",
+        "raw_return_3d": "-2.64%",
+        "pre_leakage_return_3d": "0.0%",
+        "abnormal_return_1d": "-4.03%",
+        "abnormal_return_3d": "-2.05%",
+        "volume_shock_multiple": "1.42x"
+      }
+    }
+  },
+  {
+    "title": "偉訓部分資訊系統遭網路安全事件，已隔離受影響系統並啟動調查",
+    "url": "https://www.ithome.com.tw/news/178602",
+    "reported_date": "2026-09-02",
+    "stock_code": "3032",
+    "company_name": "電子零組件廠偉訓",
+    "dates": {
+      "intrusion_date": "2026-08-30",
+      "discovery_date": "2026-08-30",
+      "disclosure_date": "2026-08-30",
+      "reporting_date": "2026-09-02"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "未特別提及或無重大影響",
+    "market_data": {
+      "symbol": "3032.TW",
+      "company_name": "COMPUCASE ENT CO LTD",
+      "current_price": 71.8,
+      "52w_high": 105.0,
+      "52w_low": 59.9,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "N/A",
+        "dividend_yield": "N/A",
+        "pb_ratio": "2.87"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-08-31",
+        "price_before_event": 79.8,
+        "price_on_event": 81.2,
+        "raw_return_1d": "1.75%",
+        "raw_return_3d": "0.88%",
+        "pre_leakage_return_3d": "0.13%",
+        "abnormal_return_1d": "2.19%",
+        "abnormal_return_3d": "1.24%",
+        "volume_shock_multiple": "0.99x"
+      }
+    }
+  },
+  {
+    "title": "光電廠杭特遭網路攻擊",
+    "url": "https://www.ithome.com.tw/news/178600",
+    "reported_date": "2026-09-02",
+    "stock_code": "3297",
+    "company_name": "本週光電廠杭特",
+    "dates": {
+      "intrusion_date": "2026-08-31",
+      "discovery_date": "2026-08-31",
+      "disclosure_date": "2026-08-31",
+      "reporting_date": "2026-09-02"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)",
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "對於本次事故可能造成的影響，杭特初步評估，目前對公司營運暫無重大影響。",
+    "market_data": {
+      "symbol": "3297.TWO",
+      "company_name": "HUNT ELECTRONIC CO",
+      "current_price": 30.2,
+      "52w_high": 52.4,
+      "52w_low": 23.7,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "33.56",
+        "dividend_yield": "0.00",
+        "pb_ratio": "1.80"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-08-31",
+        "price_before_event": 27.6,
+        "price_on_event": 27.65,
+        "raw_return_1d": "0.18%",
+        "raw_return_3d": "0.0%",
+        "pre_leakage_return_3d": "1.28%",
+        "abnormal_return_1d": "0.62%",
+        "abnormal_return_3d": "0.36%",
+        "volume_shock_multiple": "1.38x"
+      }
+    }
+  },
+  {
+    "title": "富驊企業偵測到網路攻擊．緊急啟動應變機制將受影響系統隔離",
+    "url": "https://www.ithome.com.tw/news/178599",
+    "reported_date": "2026-09-02",
+    "stock_code": "5465",
+    "company_name": "電腦及周邊設備商富驊企業",
+    "dates": {
+      "intrusion_date": "2026-08-30",
+      "discovery_date": "2026-08-30",
+      "disclosure_date": "2026-08-30",
+      "reporting_date": "2026-09-02"
+    },
+    "attack_categories": [
+      "資料外洩 (Data Breach)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "針對這起事故可能會帶來的影響，富驊根據初步評估的結果表示，沒有個資、機密或重要文件出現外洩的情形發生，對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "5465.TWO",
+      "company_name": "LOYALTY FOUNDER ENTERPRISE CO",
+      "current_price": 36.4,
+      "52w_high": 39.0,
+      "52w_low": 20.8,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "22.75",
+        "dividend_yield": "3.30",
+        "pb_ratio": "2.17"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-08-31",
+        "price_before_event": 24.1,
+        "price_on_event": 24.35,
+        "raw_return_1d": "1.04%",
+        "raw_return_3d": "2.9%",
+        "pre_leakage_return_3d": "-1.03%",
+        "abnormal_return_1d": "1.48%",
+        "abnormal_return_3d": "3.26%",
+        "volume_shock_multiple": "0.52x"
+      }
+    }
+  },
+  {
+    "title": "貿聯部分資訊系統遭網路攻擊，已啟動資安應變及隔離措施",
+    "url": "https://www.ithome.com.tw/news/178357",
+    "reported_date": "2026-08-24",
+    "stock_code": "3665",
+    "company_name": "連接線束解決方案與高速傳輸系統廠貿聯",
+    "dates": {
+      "intrusion_date": "2026-08-24",
+      "discovery_date": "2026-08-24",
+      "disclosure_date": "2026-08-24",
+      "reporting_date": "2026-08-24"
+    },
+    "attack_categories": [
+      "一般網路安全事故 (General Cyber Incident)"
+    ],
+    "impact_types": [
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據初步評估，貿聯表示，此次網路安全事件對公司整體營運及財務沒有重大影響。",
+    "market_data": {
+      "symbol": "3665.TW",
+      "company_name": "BIZLINK HOLDING INC",
+      "current_price": 1975.0,
+      "52w_high": 3010.0,
+      "52w_low": 1245.0,
+      "financials": {
+        "market": "TWSE (上市)",
+        "pe_ratio": "37.00",
+        "dividend_yield": "0.75",
+        "pb_ratio": "7.93"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-08-24",
+        "price_before_event": 2275.0,
+        "price_on_event": 2050.0,
+        "raw_return_1d": "-9.89%",
+        "raw_return_3d": "-11.87%",
+        "pre_leakage_return_3d": "3.41%",
+        "abnormal_return_1d": "-8.87%",
+        "abnormal_return_3d": "-13.22%",
+        "volume_shock_multiple": "1.7x"
+      }
+    }
+  },
+  {
+    "title": "數字科技旗下591網站遭駭客繞過登入機制，已完成漏洞修補與密鑰輪替",
+    "url": "https://www.ithome.com.tw/news/178340",
+    "reported_date": "2026-08-21",
+    "stock_code": "5287",
+    "company_name": "數字科技",
+    "dates": {
+      "intrusion_date": "2026-08-20",
+      "discovery_date": "2026-08-20",
+      "disclosure_date": "2026-08-20",
+      "reporting_date": "2026-08-21"
+    },
+    "attack_categories": [
+      "未授權存取/入侵 (Unauthorized Access)"
+    ],
+    "impact_types": [
+      "外部服務/APP暫時受阻",
+      "初步評估無重大財務影響"
+    ],
+    "impact_statement": "根據初步評估，數字科技認為，這起事故對公司營運無重大影響。",
+    "market_data": {
+      "symbol": "5287.TWO",
+      "company_name": "ADDCN TECHNOLOGY CO LTD",
+      "current_price": 135.0,
+      "52w_high": 162.385,
+      "52w_low": 131.193,
+      "financials": {
+        "market": "TPEx (上櫃)",
+        "pe_ratio": "8.84",
+        "dividend_yield": "8.26",
+        "pb_ratio": "2.93"
+      },
+      "event_impact": {
+        "trading_day_t0": "2026-08-20",
+        "price_before_event": 140.83,
+        "price_on_event": 140.83,
+        "raw_return_1d": "0.0%",
+        "raw_return_3d": "0.97%",
+        "pre_leakage_return_3d": "-0.32%",
+        "abnormal_return_1d": "-0.48%",
+        "abnormal_return_3d": "0.87%",
+        "volume_shock_multiple": "1.05x"
+      }
+    }
+  }
+]
