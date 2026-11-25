@@ -1,102 +1,33 @@
-# 上市櫃企業資安事件與股價衝擊分析系統
-### Cybersecurity Incident Stock Impact Analysis System
+# 美國上市公司資安事件與短期股價反應
 
-本專案針對臺灣上市、上櫃企業之資安重訊事件，自動化執行新聞爬取、實體與時間軸抽取、台股市場行情比對、異常報酬率（Abnormal Return, AR）與累積異常報酬率（Cumulative Abnormal Return, CAR）計量計算，輸出結構化研究資料集以供事件研究法（Event Study）分析。
+以 UMD 事件資料及美股保存行情進行短期事件研究。分析單位是受影響上市發行人的單次公開事件，含受控子公司與交易所上市 ADR。同一股票在同一分析交易日只納入一筆。
 
----
+## 研究問題
 
-## 系統架構與資料流 (Architecture & Data Flow)
+1. **主問題（RQ1）**　資安事件公開前後，三日累積異常報酬（CAR）平均是否為負？以 SPY 為基準，用事件日前第 250 至第 31 個交易日估計市場模型，至少須有 120 筆有效配對，再計算 `[-1,+1]` 三日 CAR。現有樣本有 152 筆事件，涵蓋 144 個美股代號。保留依交易日視窗重疊分群的檢定，以及事件日順延、暫不計入最大絕對 CAR 和限於已查核且未找到指定同期 8-K 的敏感度檢查。
+2. **探索問題（RQ2）**　最初披露的營運中斷、勒索及資料外洩，是否與三日 CAR 有關？用 152 筆有初步編碼的事件估計披露模型（M1）。其中 110 筆具備事件前市值及股價淨值比（P/B），用於財務控制模型（M2），並在同一批事件重估 M1 以便比較。市值與 P/B 屬財務控制變數。
 
-```mermaid
-flowchart TD
-    A[iThome 資安新聞網] -->|爬取「資安重訊」| B["src/crawler.py (爬蟲模組)"]
-    B -->|文章標題與內文| C["src/extractor.py (資訊抽取)"]
-    C -->|識別股票代號、日期、攻擊型態| D["src/market_data.py (行情與指標)"]
-    D -->|拉取事件日前後日K線與證交所指標| E["src/pipeline.py (主分析流程)"]
-    E --> F["data/cyber_incidents_analysis.json (結構化明細)"]
-    E --> G["data/cyber_incidents_summary.csv (計量迴歸資料表)"]
+目前的 `announcement_date` 是整理後的公開報導或公告日。休市日對應到下一個 SPY 交易日（`t0`）。首次公開日期、盤後發布時點與初次披露內容仍待覆核。三項披露各以 0／1 編碼，1 代表來源明確披露，0 涵蓋明確否認或未提及。152 筆中有 80 筆沿用個別選定來源，72 筆依 UMD 摘要判讀。結果適用於目前納入的樣本，解讀時需考量上市比對尚未完成的紀錄及同期公司消息。
+
+## 必要資料與成果
+
+- `cyber_events_2026-11-13.csv` 保存 UMD 原始匯出，是核對事件識別碼與來源網址的依據。
+- `data/listing_review.csv` 保存原始 2,951 筆事件的上市比對、母子公司佐證及樣本納入狀態。
+- `data/events.csv` 保存主樣本的股票代號、公開日期、分析交易日和來源佐證。RQ2 使用披露欄位與財務控制欄位。RQ1 的同期消息檢查使用 8-K 查核欄位。
+- `data/prices.csv` 保存計算 CAR 所需的個股與 SPY 美元還原收盤價。
+- `output/report.md` 是預設分析成果，內含一張平均 CAR 表與一張披露迴歸比較表。
+
+## 重現分析
+
+使用 Python 3.10 以上。安裝依賴後，可使用保存資料離線重算。
+
+```powershell
+python -m pip install -r requirements.txt
+python analyze.py
 ```
 
----
+需要抽查逐筆 CAR 時，執行 `python analyze.py --event-results`。匯出的 `output/event_results.csv` 只含比對鍵、日期、估計配對數與兩個 CAR 計算值，可依 `source_slug` 連回事件清單。
 
-## 專案檔案結構 (Project Structure)
+新增主樣本事件時，更新事件清單和股票比對表，將該事件標為 `included_car_sample`，並在行情表補齊估計期與事件視窗所需交易日。股票對應依據交易所名錄、公司申報與可追溯的母子公司關係。供應商或調查方須有自身受影響的證據。
 
-```text
-cybersecurity_stock_impact/
-├── README.md                      # 專案說明文件
-├── requirements.txt               # Python 套件依賴
-├── main.py                        # 專案 CLI 執行入口
-│
-├── src/                           # 核心套件原始碼
-│   ├── __init__.py
-│   ├── pipeline.py                # 主執行管線 (End-to-End Pipeline)
-│   ├── crawler.py                 # iThome 資安重訊爬蟲模組
-│   ├── extractor.py               # 實體識別 (NER)、關鍵日期與攻擊類型分類
-│   └── market_data.py             # Yahoo Finance 與證交所 OpenAPI 行情評估
-│
-├── data/                          # 分析成果輸出目錄
-│   ├── cyber_incidents_summary.csv    # 事件研究迴歸用 CSV
-│   └── cyber_incidents_analysis.json  # 完整結構化事件 JSON
-│
-├── tests/                         # 單元與整合測試腳本
-│   ├── test_ithome.py             # 測試 iThome 網頁爬取
-│   ├── test_quote_metrics.py      # 測試股價指標 API
-│   ├── test_resolve_tickers.py    # 測試台股股票代號解析 (.TW / .TWO)
-│   ├── test_search.py             # 測試關鍵字搜尋匹配
-│   └── test_stock_fetch.py        # 測試股價歷史日K線拉取
-│
-└── scripts/                       # 開發期探索與除錯診斷工具
-    ├── check_tags.py              # 檢查 iThome 標籤文章分佈
-    ├── crawl_samples.py           # 抓取小規模樣本供比對
-    ├── debug_search.py            # 診斷搜尋檢索流程
-    ├── explore_announcements.py   # 探索重大訊息文字樣態
-    ├── inspect_announcement_details.py # 檢視公告欄位結構
-    ├── inspect_article.py         # 檢視單篇文章解析細節
-    ├── inspect_patterns.py        # 測試正則抽取正規式
-    └── probe_ithome.py            # 探測網站連線健康度
-```
-
----
-
-## 快速開始 (Quick Start)
-
-### 1. 安裝環境需求
-建議使用 Python 3.9+，安裝所需套件：
-```bash
-pip install -r requirements.txt
-```
-
-### 2. 執行分析管線
-透過根目錄的 `main.py` 即可一鍵執行：
-```bash
-# 預設爬取最新 2 頁資安重訊 (約 20~30 筆事件)
-python main.py
-
-# 指定爬取頁數與輸出目錄
-python main.py --pages 5 --output data
-```
-
-### 3. 執行測試
-```bash
-python tests/test_resolve_tickers.py
-python tests/test_stock_fetch.py
-```
-
----
-
-## 欄位說明 (Output Dataset Schema)
-
-產出之 `data/cyber_incidents_summary.csv` 包含以下關鍵研究欄位：
-
-| 欄位名稱 | 說明 |
-| :--- | :--- |
-| `公司名稱` / `股票代碼` | 受駭企業識別與台股代碼 |
-| `市場別` | TWSE (上市) 或 TPEx (上櫃) |
-| `侵入發生日` / `公開揭露日` | 事發時間與重訊公告時間（衡量資訊外洩與市場反應延遲） |
-| `攻擊類型` / `影響範圍` | 攻擊手法（勒索軟體、DDoS、惡意攻擊等）與受損層面 |
-| `事件日前收盤` / `事件日收盤` | 揭露日前後基準股價 |
-| `次日異常報酬率(AR)` | 事件揭露後第 1 個交易日的超額變動率 |
-| `3日累計異常報酬率(CAR)` | 窗口期 [+1, +3] 之累積異常報酬率 |
-| `事前外洩檢驗(CAR[-3,-1])` | 揭露前 3 日是否有提早下挫或內線反應跡象 |
-| `成交量放大倍數` | 事件日相對於平日均量之爆量程度 |
-| `本益比` / `淨值比` / `殖利率` | 台灣證券交易所 / 櫃買中心公開財務比率 |
+`python prepare_features.py` 可從本機 UMD 匯出補上初步披露編碼。`python prepare_controls.py` 可連網補查事件前財務資訊及同期 SEC 8-K／8-K/A 索引，並以 `SEC_USER_AGENT` 設定聯絡資訊。同期查核限事件窗內含 1.01、2.01、2.02、2.05 或 5.02 項的申報。財務估算保留資料日期與來源，Coupang 使用兩類普通股合計，Shell 每份 ADS 代表兩股普通股。
